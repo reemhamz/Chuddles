@@ -1,0 +1,292 @@
+body {
+  font-family: "Montserrat"
+}
+
+#title {
+  color: #fff;
+  background-color: #30e3ca
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1 {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Raleway";
+  font-size: 1.5rem;
+  padding-bottom: 15px;
+}
+
+h3 {
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: "Montserrat";
+  color: #8f8f8f;
+}
+
+hr {
+  border-style: dashed;
+  border-color: #35d0ba;
+  border-width: thin;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.nav-link {
+  padding: 0 18px;
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: lighter;
+}
+
+
+.logo {
+  width: 50%;
+}
+/* Download Buttons  */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image  */
+
+.titlepic {
+  width: 100%;
+  border-radius: 10%;
+  position: absolute;
+
+}
+
+.mainbody {
+  padding: 3% 15%;
+}
+
+@media (max-width: 1000px){
+  .titlepic {
+    position: static;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 550px){
+  h1{
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 550px){
+  h3 {
+    font-size: 1rem;
+  }
+}
+
+/* Features */
+
+.featbox{
+padding: 3%;
+text-align: center;
+
+}
+
+.featcons{
+  color: #a4f6a5;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.featcons:hover {
+  color: #49beb7;
+}
+
+#features{
+  text-align: center;
+  padding-top: 50px;
+  position: relative;
+
+}
+
+#mainbody {
+  background-color: white;
+  position: relative;
+}
+
+
+/* testimonials */
+
+#testimonials{
+  text-align: center;
+  background-color: #30e3ca;
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: lighter;
+}
+
+#testimonials h2{
+  font-size: 2rem;
+}
+
+#testimonials h3 {
+  font-weight: 400;
+}
+
+.testimonial-pic {
+  width: 30%;
+  border-radius: 40%;
+  margin: 20px;
+}
+
+@media (max-width: 550px) {
+  .testimonial-pic {
+    width: 90%
+  }
+}
+
+.carousel-item {
+    padding: 5% 15%;
+}
+
+
+/* Pricing  */
+
+#pricing {
+  padding: 30px;
+}
+
+@media (max-width: 550px){
+  #pricing .pricing-column{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+  }
+}
+
+.pricing-top {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+
+}
+
+.pricing-top h2{
+  font-size: 2.5rem;
+  font-weight: 600;
+  color:#05a19c;
+}
+
+.pricing-column {
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.card-header h2{
+  letter-spacing: 2px;
+  color: #05a19c;
+  font-weight: lighter;
+  font-size: 2rem;
+
+}
+
+/* Footer */
+
+#cta {
+  background-color: #05a19c;
+  color: white;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 50px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  width: 50%;
+  padding: 60px;
+  box-shadow: -1px -1px 14px 6px rgba(0,0,0,0.1);
+}
+
+#cta h3 {
+  font-size: 2.5rem;
+}
+
+.download-button2{
+  text-align: center;
+  margin: 5%;
+}
+
+@media (max-width: 550px){
+  #cta h3 {
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+  }
+  #cta {
+    width: 100%
+  }
+}
+
+
+/* Press */
+
+#press {
+  background-color: #30e3ca;
+  text-align: center;
+  padding: 50px;
+}
+
+#press h2{
+  font-size: 2.5rem;
+  color: white;
+  padding-bottom: 50px;
+
+}
+
+.press-logo {
+  width: 15%;
+  margin: 0 20px 50px;
+}
+
+@media (max-width: 550px){
+  .press-logo {
+    width: 30%
+  }
+}
+
+
+
+#footer {
+  background-color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.footerpic{
+  color: #30e3ca;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+}
